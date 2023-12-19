@@ -1,4 +1,4 @@
-#Todo-List-App-Taskify-
+# Todo-List-App-Taskify-
 
 Taskify's sleek and intuitive UI and Firebase integration offer a captivating user experience, ensuring users are hooked on maintaining and tracking their tasks effortlessly.
 
