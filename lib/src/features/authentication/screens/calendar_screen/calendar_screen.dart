@@ -3,11 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:todo_list/src/features/authentication/screens/on_boarding/on_boarding_screen.dart';
-import 'package:todo_list/src/repository/authentication_repository/authentication_repository.dart';
-import 'package:google_nav_bar/google_nav_bar.dart';
 import '../../../../constants/colors.dart';
-import '../home_screen/home_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

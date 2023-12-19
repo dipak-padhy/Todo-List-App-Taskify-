@@ -1,12 +1,8 @@
-import 'package:device_preview/device_preview.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:todo_list/firebase_options.dart';
-import 'package:todo_list/src/features/authentication/screens/login/login_screen.dart';
-import 'package:todo_list/src/features/authentication/screens/on_boarding/on_boarding_screen.dart';
-import 'package:todo_list/src/features/authentication/screens/sign_up/sign_up_screen.dart';
 import 'package:todo_list/src/repository/authentication_repository/authentication_repository.dart';
 import 'package:todo_list/src/utils/theme.dart';
 

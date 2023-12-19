@@ -3,13 +3,10 @@
 
 import 'dart:developer';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:todo_list/src/constants/colors.dart';
-import 'package:todo_list/src/features/authentication/controller/add_task_controller.dart';
 import 'package:todo_list/src/features/authentication/controller/update_task_controller.dart';
 
 import 'home_screen/home_screen.dart';
@@ -59,7 +56,6 @@ class _UpdateTaskScreenState extends State<UpdateTaskScreen> {
   void initState() {
     super.initState();
 
-    var user = FirebaseAuth.instance.currentUser;
 
     titlecontroller = TextEditingController(text:widget.document['Title']);
     desccontroller = TextEditingController(text:widget.document['Description']);

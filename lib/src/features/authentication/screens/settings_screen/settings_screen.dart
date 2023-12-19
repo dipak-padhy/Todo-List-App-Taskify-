@@ -4,16 +4,12 @@
 
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:todo_list/src/features/authentication/controller/bottom_navigation_controller.dart';
 import 'package:todo_list/src/features/authentication/controller/setting_controller.dart';
-import 'package:todo_list/src/features/authentication/screens/calendar_screen/calendar_screen.dart';
-import 'package:todo_list/src/features/authentication/screens/home_screen/home_screen.dart';
 import 'package:todo_list/src/repository/authentication_repository/authentication_repository.dart';
-import 'package:google_nav_bar/google_nav_bar.dart';
 import '../../../../constants/colors.dart';
 
 class MyApp extends StatelessWidget {

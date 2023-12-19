@@ -1,6 +1,5 @@
 import 'package:flutter/Material.dart';
 import 'package:get/get.dart';
-import 'package:todo_list/src/features/authentication/models/users_model.dart';
 import 'package:todo_list/src/repository/authentication_repository/authentication_repository.dart';
 import 'package:todo_list/src/repository/user_repository/user_repository.dart';
 

@@ -1,12 +1,9 @@
-import 'dart:developer';
 
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:todo_list/src/constants/colors.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:todo_list/src/features/authentication/screens/navigation_screen/navigation_screen.dart';
 import 'package:todo_list/src/features/authentication/screens/on_boarding/page_one.dart';
 import 'package:todo_list/src/features/authentication/screens/on_boarding/page_three.dart';
 import 'package:todo_list/src/features/authentication/screens/on_boarding/page_two.dart';

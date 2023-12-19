@@ -8,8 +8,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:todo_list/src/features/authentication/controller/home_screen_controller.dart';
 import 'package:todo_list/src/features/authentication/controller/setting_controller.dart';
-import 'package:todo_list/src/features/authentication/models/task_model.dart';
-import 'package:todo_list/src/features/authentication/screens/add_task/add_task_screen.dart';
 import 'package:todo_list/src/features/authentication/screens/update_task_screen.dart';
 import 'package:todo_list/src/repository/authentication_repository/authentication_repository.dart';
 import '../../../../constants/colors.dart';

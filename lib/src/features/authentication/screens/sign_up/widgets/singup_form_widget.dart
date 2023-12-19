@@ -5,7 +5,6 @@ import 'package:get/get.dart';
 import '../../../../../constants/colors.dart';
 import '../../../../../constants/text_strings.dart';
 import '../../../controller/sign_up_controller.dart';
-import '../../../models/users_model.dart';
 
 class SignUpFormWidget extends StatelessWidget {
   SignUpFormWidget({super.key});
