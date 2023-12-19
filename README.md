@@ -1,6 +1,6 @@
-# todo_list
+#Todo-List-App-Taskify-
 
-A new Flutter project.
+Taskify's sleek and intuitive UI and Firebase integration offer a captivating user experience, ensuring users are hooked on maintaining and tracking their tasks effortlessly.
 
 ## Getting Started
 
